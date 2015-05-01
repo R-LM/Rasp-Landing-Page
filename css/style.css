@@ -1,0 +1,257 @@
+/* Text
+==================================================
+==================================================*/
+
+body {
+  background-color: black
+}
+.main-slogan {
+  font-family: "Yellowtail", cursive;
+  font-size: 70px;
+  font-weight: 400;
+  color: #FFF;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h2{
+  color: #FFF;
+  font-family: "Yellowtail", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+p {
+  font-family: "Open Sans", Arial, Sans-serif;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+}
+.text-highlight {
+  font-family: "Open Sans", Arial, Sans-serif;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+.text-container {
+  margin: auto;
+  text-align: left;
+  width: 550px;
+}
+.disclaimer p {
+  margin: auto;
+  text-align: left;
+  width: 550px;
+  font-size: 14px;
+  color: #DDD;
+  margin-bottom: 50px;
+}
+@media (max-width: 630px) {
+  .text-container {
+    margin: auto;
+    text-align: left;
+    width: auto;
+  }
+  .made-text .text-container {
+    margin: auto;
+    text-align: left;
+    width: auto;
+  }
+  h2{
+    font-size: 40px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .disclaimer p {
+    text-align: left;
+    width: auto;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 703px) and (min-width: 604px) {
+  .main-slogan {
+  font-size: 60px;
+  }
+}
+@media only screen and (max-width: 603px) and (min-width: 472px) {
+  .main-slogan {
+  font-size: 50px;
+  }
+}
+@media only screen and (max-width: 471px) and (min-width: 0px) {
+  .main-slogan {
+  font-size: 40px;
+  }
+}
+h2 {
+  text-align: center;
+}
+.red {
+  color: #ba0b26;
+}
+.green {
+  color: #3fa32d;
+}
+.grey {
+  color: #dddddd;
+}
+.brown {
+  color: #8d5917;
+}
+
+
+/* Images
+==================================================
+==================================================*/
+/* (Here starts container clone) */
+.f-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  clear: both;
+  margin: 0 auto;
+  padding: 0px; 
+  box-sizing: border-box;
+}
+
+@media (min-width: 400px) {
+  .f-container {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 550px) {
+  .f-container {
+    width: 100%;
+  }
+}
+
+.f-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* (Here ends container clone) */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.milk_s img, .red_s img {
+  max-width: 100%;
+  max-height:100%;
+  height: auto;
+  width: auto;
+  padding-bottom: 200px;
+}
+@media screen and (max-width:1065px) {  
+  .milk_s img, .red_s img  {
+    visibility: hidden;
+  }
+}
+@media (max-width: 630px) {
+  .milk_s img, .red_s img  {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width:550px) {  
+  .red_s img {
+    display: none;
+  }
+}
+@media screen and (max-width:585px) {  
+  .milk_s img {
+    padding-bottom: 50%;
+  }
+}
+@media screen and (max-width:420px) {  
+  .milk_s img {
+    padding-bottom: 80%;
+  }
+}
+@media screen and (max-width:360px) {  
+  .milk_s img {
+    padding-bottom: 100%;
+  }
+}
+@media screen and (max-width:335px) {  
+  .milk_s img {
+    padding-bottom: 120%;
+  }
+}
+.red_s {
+  text-align: right;
+}
+
+.made {
+  position: relative;
+}
+
+.made-images {
+
+}
+
+.made-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+
+
+/* CTA
+==================================================
+==================================================*/
+.cta-button {
+  color: #FFF;
+  font: 400 18px "Open Sans", Arial, Sans-serif;
+  background-color: #1BBE26;
+  border: none;
+  text-align: center;
+  width: 100%;
+  border-radius: 0px;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), inset 0 0 30px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), inset 0 0 30px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), inset 0 0 30px rgba(0, 0, 0, 0.35);
+}
+.cta-email {
+  color: #777;
+  font: 400 16px "Open Sans", Arial, Sans-serif;
+  width: 100%;
+  background-color: #FFF;
+  width: 100%;
+  border-radius: 0px;
+}
+@media (min-width: 630px) {
+  .cta-row {
+    width:550px;
+    margin: auto;
+  }
+}
+
+
+/* Extra
+==================================================
+==================================================*/
+
+button {
+  padding: 4px 0px 5px 0px;
+  height: auto;
+  text-transform: none;
+  border-radius: 0px;
+}
+input[type=text] {
+  padding: 6px 15px;
+  height: auto;
+  border: none;
+  border-radius: 0px;
+  background-color: #CCC;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), inset 0 0 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), inset 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.35), inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
